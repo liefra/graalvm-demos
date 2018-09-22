@@ -1,3 +1,6 @@
+# Check if ggplot2 package is installed. If not, then install it
+if (!require(ggplot2)) install.packages('ggplot2')
+
 library(ggplot2)
 data <<- numeric(100)
 
